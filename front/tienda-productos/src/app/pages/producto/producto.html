@@ -1,0 +1,21 @@
+<div class="container">
+
+  <h2>🛒 Productos</h2>
+
+  <!-- Formulario -->
+  <input [(ngModel)]="nuevo.nombre" placeholder="Nombre del producto">
+  <input [(ngModel)]="nuevo.precio" type="number" placeholder="Precio">
+
+  <button type="button" (click)="crearProducto()">Agregar Producto</button>
+
+  <hr>
+
+  <!-- Lista -->
+  <ul>
+    <li *ngFor="let p of productos">
+      <span id="color-texto">{{ p.nombre }} - ${{ p.precio }}</span>
+      <button type="button" (click)="eliminarProducto(p.id!)">Eliminar</button>
+    </li>
+  </ul>
+
+</div>

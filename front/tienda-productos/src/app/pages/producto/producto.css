@@ -1,0 +1,88 @@
+/* Fondo general */
+body {
+  background: #0f172a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e2e8f0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Contenedor */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #334155;
+  color: white;
+}
+
+/* Botón agregar */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Botón principal */
+button:first-of-type {
+  background: #22c55e;
+  color: white;
+  width: 100%;
+}
+
+button:first-of-type:hover {
+  background: #16a34a;
+}
+
+/* Lista */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Items */
+li {
+  background: #334155;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Botón eliminar */
+li button {
+  background: #ef4444;
+  color: white;
+}
+
+li button:hover {
+  background: #dc2626;
+}
+
+#color-texto {
+    color: white;
+}
