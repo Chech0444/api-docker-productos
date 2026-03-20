@@ -39,7 +39,7 @@ backend-app
 
 docker network connect red-front-back backend
 
-# Creamos imagen y despliegue de contenedor referente al backend
+# Creamos imagen y despliegue de contenedor referente al frontend
 
 docker build -t frontend-app .
 
